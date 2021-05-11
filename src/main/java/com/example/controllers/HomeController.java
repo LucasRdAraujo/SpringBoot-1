@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     public String home() {
-        String html = "<!DOCTYPE html" + new Html(
+        String html = "<!DOCTYPE html>" + new Html(
                 new Attribute[] { new Attribute("lang", "pt-br") },
                 new Head(
                         new Meta(false, new Attribute("charset", "UTF-8")).create(),
