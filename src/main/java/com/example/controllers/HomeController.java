@@ -26,10 +26,7 @@ public class HomeController {
                             new Attribute("integrity", "sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"),
                             new Attribute("crossorigin", "anonymous")
                         ).create(),
-                        new Script(
-                            new Attribute("src", "https://kit.fontawesome.com/154afaa558.js"),
-                            new Attribute("crossorigin", "anonymous")
-                        ).create(),
+                        new Script(new Attribute("src", "https://kit.fontawesome.com/154afaa558.js"), new Attribute("crossorigin", "anonymous")).create(),
                         new Title("Meu curriculo").create()
                 ).create(),
                 new Body(
