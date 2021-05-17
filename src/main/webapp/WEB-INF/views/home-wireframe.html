@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/26cf4bd766.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../resources/static/assets/css/styles.css" />
+    <title>Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <header id="header" class="row vh-100 align-i-center text-light">
+            <div class="col p-5">
+                <h1>Bem vindo!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro placeat rerum et doloribus aliquid
+                    ea
+                    rem, adipisci quia delectus minima ex? Odio aspernatur deserunt iusto vitae optio quas
+                    blanditiis
+                    perspiciatis?</p>
+            </div>
+            <div class="col p-5">
+                <!-- <img src="https://images.pokemontcg.io/si1/1.png" alt="" srcset=""> -->
+            </div>
+        </header>
+        <!-- <section class="row b-red-wave"></section> -->
+        <section class="row">
+            <div class="col align-self-center p-5">
+                <h2>Alguma informação aqui</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae fuga, quo at rem exercitationem
+                    dicta distinctio, eligendi laudantium ipsam maxime cupiditate atque consequuntur obcaecati nihil
+                    hic! Ipsa, saepe nostrum.</p>
+            </div>
+            <div class="col text-center p-5">
+                <img style="width: 40em;transform: rotate(56deg);"
+                    src="../../../resources/static/assets/imgs/magikarp.svg" alt="">
+            </div>
+        </section>
+        <section class="row t-orange-wave"></section>
+        <section id="info-area" class="row text-light">
+            <div class="col p-5">
+                <h2>Contate-nos</h2>
+                <p>Tem alguma sugestão? nos envie por este formulário.</p>
+            </div>
+            <div class="col p-5">
+                <h2>Formulário</h2>
+                <form action="">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Sugestão</label>
+                        <!-- <input type="password" class="form-control" id="exampleInputPassword1"> -->
+                        <textarea name="" id="textArea" class="form-control" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="row b-orange-wave"></section>
+        <section id="search" class="row">
+            <div id="navbar-column" class="col p-5">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <div>
+                            <input type="text" name="" id="">
+                            <input type="button" value="buscar">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="cards">
+            <div class="container">
+                <!-- <div class="row row-cols-1 row-cols-md-5 m-3 container-fluid">
+                    <c:forEach items="${cards.getData()}" var="card">
+                        <div class="col mt-2">
+                            <div class="card">
+                                <img src="${card.images.large}" class="card-img-top" alt="imagem do card do pokemon"> -->
+                                <!-- <div class="card-body">
+                                    <h5 class="card-title">${art.title}</h5>
+                                    <p class="card-text">${art.content}</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="${art.url}" class="card-link">Link da matéria</a>
+                                </div>-->
+                            <!-- </div>
+                        </div>
+                    </c:forEach>
+                </div> -->
+                <!-- <div class="card bg-dark text-white">
+                    <img src="..." class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <footer id="footer" class="row">
+            <div class="col-md">
+                <a class="icoLinkedin" href="https://www.linkedin.com/in/" title="Linkedin"><i
+                        class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="col-md">
+                <a class="icoTwitter" href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="col-md">
+                <a class="icoFacebook" href="https://www.facebook.com/" title="Facebook"><i
+                        class="fa fa-facebook"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

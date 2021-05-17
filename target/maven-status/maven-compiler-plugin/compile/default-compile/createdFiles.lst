@@ -1,1 +1,3 @@
-com\example\BasicApplication.class
+br\com\infnet\pokecards\models\Card.class
+br\com\infnet\pokecards\PokecardsApplication.class
+br\com\infnet\pokecards\services\PokeCardService.class
