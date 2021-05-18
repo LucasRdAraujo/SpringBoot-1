@@ -59,6 +59,20 @@ body{
     border-bottom: 1px solid rgba(0, 0, 0, 0.171);
 }
 
+#card-header-display {
+    position: relative;
+    /* background-color: #97d897; */
+    background-image: url(../imgs/card-header-wave.svg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#card-display {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.26);
+    width: 15em;
+    border-radius: 9px;
+}
+
 #footer {
     text-align: center;
     padding: 3em;
@@ -79,6 +93,10 @@ body{
 
 .vh-20 {
     height: 20vh;
+}
+
+.vh-30 {
+    height: 30vh;
 }
 
 .vh-40 {
